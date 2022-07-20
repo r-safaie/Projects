@@ -1,0 +1,601 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Normalize.css">
+    <!-- <link rel="stylesheet" href="Css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="Css/fontiran.css">
+    <link rel="stylesheet" href="Css/vazir.css">
+    <link rel="stylesheet" href="Css/Yekanweb.css">
+    <link rel="stylesheet" href="Fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+
+
+
+    <title>وب سایت آموزشی دیپ لرن</title>
+</head>
+
+<body>
+
+    <div class="top_header">
+        <div class="inner_top_header">
+            <ul class="nav right_nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">کانال تلگرام</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">درباره ما</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">ارتباط با ما</a>
+                </li>
+            </ul>
+            <ul class="nav left_nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">سوالات متداول</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">پرسش و پاسخ</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <!--Search part -->
+    <div class="Search_box">
+        <form class="order-lg-1 frmsearch" action="#" name="frmSearch1" id="frmSearch1" method="POST" autocomplete="off"
+            translate="no" spellcheck="false" role="form">
+
+            <input type="search" id="txtSearch" class="form-control form-control-lg search_text"
+                placeholder="دنبال چی میگردی؟">
+            <button type="submit" id="btnSearch" class="btn  btn-outline-dark rounded-circle btn_search">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light page_navbar">
+
+        <a href="#" class="navbar-brand">
+            <img src="img/free_horizontal_on_white_by_logaster.png" alt="Logo" class="navbar_logo">
+        </a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_menue">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapse_menue">
+            <div class="search_box_collapse">
+                <form class="order-lg-1 frmsearch" action="#" name="frmSearch" id="frmSearch" method="POST"
+                    autocomplete="off" translate="no" spellcheck="false" role="form">
+
+                    <input type="search" class="form-control form-control-lg  search_text"
+                        placeholder="دنبال چی میگردی؟">
+                    <button type="submit" class="btn btn-outline-dark  btn_search">
+                        <i class="far fa-search "></i>
+                    </button>
+                </form>
+            </div>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">
+                        صفحه اصلی
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        دوره های آموزشی
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        بحث و گفتگوها
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        مقالات
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        رزومه ساز
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        بلاگ
+                    </a>
+                </li>
+            </ul>
+            <button class="btn btn-warning btn_register" type="submit">ثبت نام</button>
+            <button class="btn btn-info btn_login" type="submit">ورود </button>
+
+        </div>
+
+    </nav>
+
+    <header>
+        <div class="header_container">
+            <div class="header_text">
+                <h1>آموزش <span id="header_h1_programming">برنامه نویسی</span> با دیپ لرن</h1>
+                <p>
+                    ما باور داریم که کاربران ایرانی لایق بهترین‌ها هستند، از این رو ما تمام تلاش خود را می‌کنیم تا
+                    بتوانیم
+                    فیلم‌ها و مقالات آموزشی بروز و کاربردی را در اختیارتان قرار دهیم تا با استفاده از آنها بتوانید جزء
+                    بهترین‌ها در صنعت طراحی و برنامه‌نویسی وب شوید. ما ادعا نمی‌کنیم که بهترین هستیم ولی همیشه تمام تلاش
+                    خود
+                    را می‌کنیم بهترین عملکرد را به شما ارائه دهیم.
+                </p>
+            </div>
+            <div class="header_image">
+                <img src="img/mydeveloper.svg" alt="developer">
+            </div>
+        </div>
+    </header>
+
+    <!-- card جدیدترین دوره ها/ بخش   -->
+
+    <div class="topContainer p-4">
+        <div class="Serial_title d-flex justify-content-between align-items-center">
+
+            <a href="#" class="New_serials">جدید ترین دوره ها</a>
+
+            <a href="#" class="all_seriall">مشاهده همه دوره ها</a>
+        </div>
+
+        <div class="container Fluid_Container">
+            <div class="row no-gutters">
+                <div class="Col_lg_3 col-sm-6 col_margins">
+                    <div class="card new_course ">
+
+                        <div class="img_box">
+                            <img src="img/php.jpg" alt="livewire" class="card-img-top">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">آموزش PHP</h5>
+                            <p class="card-text">
+                                در دوره آموزش php ما سعی می‌کنیم php را به شکل جامع و کاملا رایگان به شما آموزش دهیم تا
+                                با استفاده از php بتوانید سایت‌های خود را بسازید.
+                            </p>
+
+                            <!-- <div class="with_Price">
+
+                                <div class="clock_heart">
+
+                                    <div>
+                                        <span>۳۷</span>
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="">
+                                        <span>۰۸:۱۳:۰۷</span>
+                                        <i class="far fa-clock"></i>
+                                    </div>
+
+                                </div>
+
+                                <span>۱۲۵۰۰۰ تومان</span>
+                            </div> -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="with_Price">
+
+                                <div class="clock_heart">
+
+                                    <div>
+                                        <span>۳۷</span>
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="">
+                                        <span>۰۸:۱۳:۰۷</span>
+                                        <i class="far fa-clock"></i>
+                                    </div>
+
+                                </div>
+
+                                <span>رایگان </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="Col_lg_3 col-sm-6 col_margins">
+                    <div class="card new_course">
+
+                        <div class="img_box">
+                            <img src="img/livewire.jpg" alt="livewire" class="card-img-top">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">آموزش Livewire</h5>
+                            <p class="card-text">
+                                در دوره آموزش livewire ما سعی داریم livewire که یک فریمورک laravel به حساب می‌آید را به
+                                شکل
+                                قدم به قدم و جامع به شما آموزش دهیم .
+                            </p>
+                            <div class="VIP_box">
+                                <i class="fas fa-star"></i>
+                                <span class="VIP mr-1">دسترسی رایگان برای اعضای ویژه</span>
+                            </div>
+                            <hr class="Under_VIP">
+
+                            <!-- <div class="with_Price">
+
+                                <div class="clock_heart">
+
+                                    <div>
+                                        <span>۳۷</span>
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="">
+                                        <span>۰۸:۱۳:۰۷</span>
+                                        <i class="far fa-clock"></i>
+                                    </div>
+
+                                </div>
+
+                                <span>۱۲۵۰۰۰ تومان</span>
+                            </div> -->
+
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="with_Price">
+
+                                <div class="clock_heart">
+
+                                    <div>
+                                        <span>۳۷</span>
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="">
+                                        <span>۰۸:۱۳:۰۷</span>
+                                        <i class="far fa-clock"></i>
+                                    </div>
+
+                                </div>
+
+                                <span>۱۲۵۰۰۰ تومان</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="Col_lg_3 col-sm-6 mb-3 mb-sm-0">
+
+                    <div class="card new_course">
+
+                        <div class="img_box">
+                            <img src="img/laravel-thum.jpg" alt="laravel" class="card-img-top">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">آشنایی با امکانات جدید لاراول ۸</h5>
+                            <p class="card-text">
+                                لاراول ۸ با تغییرات جدیدی ارائه شده که ما در دوره آشنایی با امکانات لاراول ۸ سعی
+                                داریم
+                                شما را با این امکانات جدید به شکل کامل آشنا کنیم
+                            </p>
+
+                            <!-- <div class="with_Price">
+
+                                <div class="clock_heart">
+
+                                    <div>
+                                        <span>۳۷</span>
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="">
+                                        <span>۰۸:۱۳:۰۷</span>
+                                        <i class="far fa-clock"></i>
+                                    </div>
+
+                                </div>
+
+                                <span>۱۲۵۰۰۰ تومان</span>
+                            </div> -->
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="with_Price">
+
+                                <div class="clock_heart">
+
+                                    <div>
+                                        <span>۳۷</span>
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="">
+                                        <span>۰۸:۱۳:۰۷</span>
+                                        <i class="far fa-clock"></i>
+                                    </div>
+
+                                </div>
+
+                                <span> رایگان</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="Col_lg_3 col-sm-6 ">
+                    <div class="card new_course">
+
+                        <div class="img_box">
+                            <img src="img/angular.png" alt="angular" class="card-img-top">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">آموزش انگولار</h5>
+                            <p class="card-text">
+                                در دوره آموزش انگولار ما سعی داریم به شما کمک کنیم angular را ساده و قدم به قدم
+                                به شکل
+                                کامل و با جزئیات یاد بگیرید.
+                            </p>
+
+                            <div class="VIP_box">
+                                <i class="fas fa-star"></i>
+                                <span class="VIP mr-1">دسترسی رایگان برای اعضای ویژه</span>
+                            </div>
+                            <hr class="Under_VIP">
+
+                        </div>
+                        <div class="card-footer">
+                            <div class="with_Price">
+
+                                <div class="clock_heart">
+
+                                    <div>
+                                        <span>۳۷</span>
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="">
+                                        <span>۰۸:۱۳:۰۷</span>
+                                        <i class="far fa-clock"></i>
+                                    </div>
+
+                                </div>
+
+                                <span>۱۲۵۰۰۰ تومان</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--بحث و گفتگو-->
+
+    <div class="container Fluid_Container desc_container  mb-5">
+        <div class="row">
+            <div class="col-lg-6">
+
+                <div class="desc_head">
+                    <h3>بحث و گفتگو</h3>
+                    <div class="desc_title">
+                        <span class="fas fa-circle desc_circle"></span>
+                        <small> حل مشکلات و ارورهای برنامه نویسی</small>
+                    </div>
+                </div>
+
+                <ul class="list-unstyled first_list mt-3">
+                    <li class="media desc_right">
+
+                        <img src="img/decs-pic-1.png" alt="fluter" class="desc_img img-thumbnail">
+                        <div class="media-body">
+                            <h5>
+                                <a href="#">کار در شرکت به عنوان برنامه نویس فلاتر</a>
+                            </h5>
+                            <small>توسط الیاس بشکنی مطرح شد</small>
+                        </div>
+                        <span class="badge desc_badge"> ۰ پاسخ </span>
+
+                    </li>
+
+                    <li class="media desc_right">
+
+                        <img src="img/decs-pic-1.png" alt="fluter" class="desc_img img-thumbnail">
+                        <div class="media-body">
+                            <h5>
+                                <a href="#">کار در شرکت به عنوان برنامه نویس فلاتر</a>
+                            </h5>
+                            <small>توسط الیاس بشکنی مطرح شد</small>
+                        </div>
+                        <span class="badge desc_badge"> ۰ پاسخ </span>
+
+                    </li>
+
+                    <li class="media desc_right">
+
+                        <img src="img/decs-pic-1.png" alt="fluter" class="desc_img img-thumbnail">
+                        <div class="media-body">
+                            <h5>
+                                <a href="#">کار در شرکت به عنوان برنامه نویس فلاتر</a>
+                            </h5>
+                            <small>توسط الیاس بشکنی مطرح شد</small>
+                        </div>
+                        <span class="badge desc_badge"> ۰ پاسخ </span>
+
+                    </li>
+
+                    <li class="media desc_right">
+
+                        <img src="img/decs-pic-1.png" alt="fluter" class="desc_img img-thumbnail">
+                        <div class="media-body">
+                            <h5>
+                                <a href="#">کار در شرکت به عنوان برنامه نویس فلاتر</a>
+                            </h5>
+                            <small>توسط الیاس بشکنی مطرح شد</small>
+                        </div>
+                        <span class="badge desc_badge"> ۰ پاسخ </span>
+
+                    </li>
+
+                    <li class="media desc_right">
+
+                        <img src="img/decs-pic-1.png" alt="fluter" class="desc_img img-thumbnail">
+                        <div class="media-body">
+                            <h5>
+                                <a href="#">کار در شرکت به عنوان برنامه نویس فلاتر</a>
+                            </h5>
+                            <small>توسط الیاس بشکنی مطرح شد</small>
+                        </div>
+                        <span class="badge desc_badge"> ۰ پاسخ </span>
+
+                    </li>
+                </ul>
+                <a href="#" class="Show_all btn "> مشاهده هممه گفتگوها</a>
+            </div>
+            <div class="col-lg-6">
+
+                <div class="desc_head d-flex jusfity-content-between align-items-center w-100" id="desc_heading">
+
+                    <div class="">
+                        <h3>آخرین ویدیو‌های آموزشی</h3>
+                        <div class="desc_title">
+                            <span class="fas fa-circle desc_circle"></span>
+                            <small>برنامه‌نویسی وب و موبایل</small>
+                        </div>
+                    </div>
+
+                    <a href="#" class="Show_all btn mr-auto"> همه ویدیوها</a>
+                </div>
+
+                <ul class="list-group mt-3">
+
+                    <li class="list-group-item desc_video">
+
+                        <div>
+                            <p>
+                                <a href="#">نحوه کار با سشن‌ها</a>
+                            </p>
+                            <small>
+                                <a href="#">آموزش PHP</a>
+                            </small>
+                            <small> - قسمت ۵۰ </small>
+                        </div>
+
+                    </li>
+
+                    <li class="list-group-item desc_video">
+
+                        <div>
+                            <p>
+                                <a href="#">نحوه کار با سشن‌ها</a>
+                            </p>
+                            <small>
+                                <a href="#">آموزش PHP</a>
+                            </small>
+                            <small> - قسمت ۵۰ </small>
+                        </div>
+
+                    </li>
+
+                    <li class="list-group-item desc_video">
+
+                        <div>
+                            <p>
+                                <a href="#">نحوه کار با سشن‌ها</a>
+                            </p>
+                            <small>
+                                <a href="#">آموزش PHP</a>
+                            </small>
+                            <small> - قسمت ۵۰ </small>
+                        </div>
+
+                    </li>
+
+                    <li class="list-group-item desc_video">
+
+                        <div>
+                            <p>
+                                <a href="#">نحوه کار با سشن‌ها</a>
+                            </p>
+                            <small>
+                                <a href="#">آموزش PHP</a>
+                            </small>
+                            <small> - قسمت ۵۰ </small>
+                        </div>
+
+                    </li>
+
+                    <li class="list-group-item desc_video">
+
+                        <div>
+                            <p>
+                                <a href="#">نحوه کار با سشن‌ها</a>
+                            </p>
+                            <small>
+                                <a href="#">آموزش PHP</a>
+                            </small>
+                            <small> - قسمت ۵۰ </small>
+                        </div>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <form>
+        <input type="search" class="toggle_search" id="tx_search">
+        <button id="bt_search" style="margin-right:-5px;">جستجو</button>
+    </form>
+
+
+<form>
+ <input type="search"  />   
+</form>
+
+<p>
+    در هر مرحله از
+  <span style="color:#fd8161"> کسب و کار</span> 
+      خود که هستید از ما مشاوره رایگان بگیرید! با توجه به نیاز کسب و کار شما، خدمات دیجیتال مارکتینگ مختص خود را در یافت کنید.
+</p>
+
+
+
+
+
+در هر مرحله از کسب و کار خود که هستید از ما مشاوره رایگان بگیرید! با توجه به نیاز کسب و کار شما، خدمات دیجیتال مارکتینگ مختص خود را در یافت کنید.
+
+در هر مرحله<span> </span> از کسب و کار
+ خود که هستید از ما مشاوره رایگان بگیرید! با توجه به نیاز کسب و کار شما، خدمات دیجیتال مارکتینگ مختص خود را در یافت کنید.
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+       
+
+    </script>
+</body>
+
+</html>
